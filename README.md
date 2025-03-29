@@ -18,7 +18,7 @@ tags:
 - gobierno
 - trámites
 - información pública
-license: "Creative Commons Attribution 4.0"
+license: "cc-by-4.0"
 ---
 
 # Conjunto de datos del portal único de trámites de Bolivia (gob.bo)
