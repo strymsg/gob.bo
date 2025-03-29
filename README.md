@@ -25,7 +25,7 @@ license: "cc-by-4.0"
 
 Archivos generados a partir de aplicar we scraping y guardados como archivos `csv` en:
 
-- `data/gobbo_tramites_pre.csv` (Datos pre procesados)
+- `data/gobbo_tramites_pre.csv` (Datos pre procesados con `[notebooks/gobbo-pre.ipynb](notebooks/gobbo-pre.ipynb)`) 
 - `data/2025-03-25_tramites_gobbo.raw.csv` (Datos en bruto)
 
 Licencia: Creative Commons Attribution 4.0
