@@ -1,11 +1,14 @@
 ---
-gobbo/
-├── README.md
-├── data/gobbo_tramites_pre.csv
-└── data/2025-03-25_tramites_gobbo.raw.csv
----
+configs:
+- config_name: default
+  data_files:
+  - split: train
+    path:
+    - "data/gobbo_tramites_pre.csv"
+    - "data/2025-03-25_tramites_gobbo.raw.csv"
+  default: true
+  sep: ","
 
----
 language:
 - es
 pretty_name: "Trámites Portal único de trámites de Bolivia gob.bo obtenidos por scraping."
@@ -16,8 +19,6 @@ tags:
 - trámites
 - información pública
 license: "Creative Commons Attribution 4.0"
-task_categories:
-- task1
 ---
 
 # Conjunto de datos del portal único de trámites de Bolivia (gob.bo)
