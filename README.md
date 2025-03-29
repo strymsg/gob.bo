@@ -23,10 +23,10 @@ license: "cc-by-4.0"
 
 # Conjunto de datos del portal único de trámites de Bolivia (gob.bo)
 
-Archivos generados a partir de aplicar we scraping y guardados como archivos `csv` en:
+Archivos generados a partir de aplicar web scraping y guardados como archivos `csv` en:
 
-- `data/gobbo_tramites_pre.csv` (Datos pre procesados con [notebooks/gobbo-pre.ipynb](notebooks/gobbo-pre.ipynb)) 
-- `data/2025-03-25_tramites_gobbo.raw.csv` (Datos en bruto)
+- [gobbo_tramites_pre.csv](data/gobbo_tramites_pre.csv)` (Datos pre procesados con [notebooks/gobbo-pre.ipynb](notebooks/gobbo-pre.ipynb)) 
+- [2025-03-25_tramites_gobbo.raw.csv](data/2025-03-25_tramites_gobbo.raw.csv) (Datos en bruto)
 
 Licencia: Creative Commons Attribution 4.0
 
