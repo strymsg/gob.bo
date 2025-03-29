@@ -5,7 +5,7 @@ configs:
   - split: train
     path:
     - "data/gobbo_tramites_pre.csv"
-    - "data/2025-03-25_tramites_gobbo.raw.csv"
+#    - "data/2025-03-25_tramites_gobbo.raw.csv"
   default: true
   sep: ","
 
@@ -25,7 +25,7 @@ license: "cc-by-4.0"
 
 Archivos generados a partir de aplicar web scraping y guardados como archivos `csv` en:
 
-- [gobbo_tramites_pre.csv](data/gobbo_tramites_pre.csv)` (Datos pre procesados con [notebooks/gobbo-pre.ipynb](notebooks/gobbo-pre.ipynb)) 
+- [gobbo_tramites_pre.csv](data/gobbo_tramites_pre.csv) (Datos pre procesados con [notebooks/gobbo-pre.ipynb](notebooks/gobbo-pre.ipynb)) 
 - [2025-03-25_tramites_gobbo.raw.csv](data/2025-03-25_tramites_gobbo.raw.csv) (Datos en bruto)
 
 Licencia: Creative Commons Attribution 4.0
