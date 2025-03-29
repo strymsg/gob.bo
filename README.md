@@ -32,6 +32,8 @@ Licencia: Creative Commons Attribution 4.0
 
 ## Diccionario de datos
 
+Del archivo [data/gobbo_tramites_pre.csv](data/gobbo_tramites_pre.csv).
+
 | Columna              | Descripción                                                                | Tipo   |
 |----------------------|----------------------------------------------------------------------------|--------|
 | titulo               | Título del trámite.                                                        | string |
