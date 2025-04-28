@@ -1,0 +1,61 @@
+# Notas sobre análisis de datos
+
+- Análisis por institución [ ]
+  - Trámites por institución [x]
+  - Instituciones que actualizan más seguido
+  - Instituciones que no actualizan
+  - Instituciones con mayor costo promedio
+- Análisis de trámites por categoría
+  - ¿Qué categorías de trámites tienen mayor duración?
+  - ¿Qué categorías de trámites se actulizan más seguido?
+- Descripción de trámites
+  - ¿Cúales son los trámites con descripciones más extensas?
+    - Cantidad de palabras
+	  - Demasiadas palabras
+	  - Muy pocas palabras
+	  - Cúal la distribución de la cantidad de palabras usadas
+	- NER ?
+    - Se podrían clasificar los trámites sólo a partir de su descripción (usar modelos)
+- web
+  - La Url es un dominio .bo?
+- Distribución de trámites presenciales o en línea
+  - Por institución
+  - cuadro general de distribución
+- requisitos
+  - Cantidad de requisitos
+    - ¿Número de filas? - parece que cada fila corresponde a un requisito.
+      - Entidades con más requisitos
+	- ¿Cúales palabras o n-gramas (excluyendo stop words) se repiten más? Quizá corresponde a requisitos comunes como fotocopia de C.I.
+  - Análisis NER
+- Procedimiento
+  - Cantidad de pasos
+    - Cada fila parece corresponder a un paso.
+	- Distribución de cantidad de pasos
+	  - Por institución
+	  - Trámites con más y menos pasos
+- Duración
+  - Distrubución de duracióin de trámites
+  - Por institución
+	- Por categoría
+- Ultima_actualización
+  - Distribución
+  - Actualizados por periódos
+    - últimos 30, 90, 180, 360 días
+	- por años
+  - 
+- costos
+  - Costos promedios por trámites
+  - Forma de pago distribución
+  - Monedas usadas distribución
+- Calificaciones de trámites
+  - Distribución
+  - Los mejores y peores
+- num_ubicaciones y ubicaciones
+  - Si no es en línea ¿cúantas ubicaciones tiene?
+    - Distribución de la cantidad de ubicaciones
+	  - Por institución
+	  - **Si no es en línea** ¿En cúantos departamentos se puede hacer?
+	  - ¿En cúantos trámites no se especifica ubicación?
+- Marco legal
+  - ¿Cúales son las leyes más comunes?
+  
