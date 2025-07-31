@@ -45,3 +45,39 @@ async def is_element_located(page, selector, *args):
         return True
     return False
     
+
+async def get_text_from_all_elements(self, locator):
+    """Gets the text from all elements that matches the locator.
+       When there are multiple elements the text is concat with ,
+        If no element is found returns an empty string
+    """
+    text = ''
+    if await is_element_located(self.page, locator):
+        web_elements =  await self.page.locator(get_locator(locator)).all()
+        if len(web_elements) == 1:
+            return await web_elements[0].inner_text()
+        
+        for web_element in web_elements:
+            text += await web_element.inner_text() + ','
+    return text
+
+
+async def get_text_from_page_and_locator(p, locator: str, throw_exception=True):
+    """Returns the `inner_text' from the element find with the given locator
+
+    Parameters:
+    p (Page Object playwrigth): Page object from browser context to search in
+    locator: locator string
+    throw_exception (bool): If true, raises an exception when no element for the given
+      locator is found, otherwise will return an empty string
+    """
+    if not throw_exception:
+        txt = await p.locator(get_locator(locator)).inner_text()
+        return txt if txt is not None else ''
+
+    try:
+        return await p.locator(get_locator(locator)).inner_text()
+    except Exception as e:
+        LOGGER.error(f'Error getting element with locator {locator}')
+        LOGGER.error(LOGGER.format_exception(e))
+        raise e
